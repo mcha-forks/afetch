@@ -1,14 +1,9 @@
-#define UserText    "   USER " //
-#define OsText      "     OS " //
-#define KernelText  " KERNEL " //
-#define UptimeText  " UPTIME " //
-#define ShellText   "  SHELL " //
-#define PackageText "   PKGS " //
-
-/* Those two options are mutually exclusive.
- * Either set one to 'true' or both to 'false'. */
-#define ForceLowerCase false
-#define ForceUpperCase false
+#define UserText    BBLUE"▎ 󰀄  " //
+#define OsText      BBLUE"▎ 󰻀  " //
+#define KernelText  BBLUE"▎ 󰣖  " //
+#define UptimeText  BBLUE"▎ 󰅐  " //
+#define ShellText   BBLUE"▎ 󰆍  " //
+#define PackageText BBLUE"▎ 󱭒  " //
 
 /* See options in colour.h file */
 #define TextColour WHITE
